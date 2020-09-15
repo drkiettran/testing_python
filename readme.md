@@ -45,3 +45,9 @@ The structure should look like this:
 
 5 directories, 14 files
 ```
+
+## stdin & stdout
+In Python, `input()` uses stdin file handle and `print()` uses stdout.
+You can simulate stdin and capture stdout for your unit testing purpose
+by employing `StringIO` class. 
+
